@@ -3,706 +3,1193 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Личное дело | Боня Владислав Сергеевич</title>
+
     <link rel="stylesheet" href="style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet"
+    >
 </head>
 
 <body>
-    <div class="noise"></div>
-    <div class="grid"></div>
 
-    <header class="header">
-        <div class="header-inner">
-            <a class="brand" href="#profile">
-                <span class="brand-mark">БС</span>
-                <span>
-                    <b>CHARACTER FILE</b>
-                    <small>KUTUZOVSKY DISTRICT // RP DATABASE</small>
-                </span>
+<div class="noise"></div>
+<div class="grid"></div>
+
+
+<!-- =========================
+     HEADER
+========================= -->
+
+<header class="header">
+
+    <div class="header-inner">
+
+        <a class="brand" href="#profile">
+
+            <span class="brand-mark">БС</span>
+
+            <span>
+                <b>CHARACTER FILE</b>
+                <small>KUTUZOVSKY DISTRICT // RP DATABASE</small>
+            </span>
+
+        </a>
+
+
+        <nav>
+
+            <a href="#profile">Профиль</a>
+            <a href="#bio">Биография</a>
+            <a href="#history">История</a>
+            <a href="#current">Сейчас</a>
+
+        </nav>
+
+
+        <div class="status">
+            <span></span>
+            ACTIVE
+        </div>
+
+    </div>
+
+</header>
+
+
+<main>
+
+
+<!-- =========================
+     HERO
+========================= -->
+
+<section class="hero" id="profile">
+
+    <div class="hero-lines"></div>
+
+
+    <div class="hero-content">
+
+        <div class="eyebrow">
+
+            <span>PERSONAL DOSSIER</span>
+
+            <i></i>
+
+            <span>FILE №001</span>
+
+        </div>
+
+
+        <p class="hero-kicker">
+            ТЕКУЩЕЕ СОСТОЯНИЕ ПЕРСОНАЖА
+        </p>
+
+
+        <h1>
+            БОНЯ<br>
+            <strong>ВЛАДИСЛАВ</strong>
+        </h1>
+
+
+        <div class="current-role">
+
+            <span class="rank">МАЙОР</span>
+
+            <span class="separator">/</span>
+
+            <span>
+                ЗАМЕСТИТЕЛЬ КОМАНДИРА УЧЕБНОГО БАТАЛЬОНА
+            </span>
+
+        </div>
+
+
+        <p class="hero-description">
+
+            Личное игровое досье Бони Владислава Сергеевича —
+            история персонажа, его путь в армии и текущее служебное положение.
+
+        </p>
+
+
+        <div class="hero-actions">
+
+            <a class="button" href="#bio">
+                Открыть досье
+                <span>↓</span>
             </a>
 
-            <nav>
-                <a href="#profile">Профиль</a>
-                <a href="#bio">Биография</a>
-                <a href="#history">История</a>
-                <a href="#current">Сейчас</a>
-            </nav>
 
-            <div class="status">
-                <span></span> ACTIVE
+            <div class="mini-data">
+
+                <div>
+                    <span>AGE</span>
+                    <b>22</b>
+                </div>
+
+                <div>
+                    <span>STATUS</span>
+                    <b>ACTIVE</b>
+                </div>
+
+                <div>
+                    <span>UNIT</span>
+                    <b>№12132</b>
+                </div>
+
             </div>
+
         </div>
-    </header>
 
-    <main>
+    </div>
 
-        <!-- ==================== PROFILE ==================== -->
 
-        <section class="hero" id="profile">
-            <div class="hero-lines"></div>
+    <!-- CHARACTER -->
 
-            <div class="hero-content">
-                <div class="eyebrow">
-                    <span>PERSONAL DOSSIER</span>
-                    <i></i>
-                    <span>FILE №001</span>
-                </div>
+    <div class="character-wrap">
 
-                <p class="hero-kicker">ТЕКУЩЕЕ СОСТОЯНИЕ ПЕРСОНАЖА</p>
+        <div class="character-glow"></div>
 
-                <h1>
-                    БОНЯ<br>
-                    <strong>ВЛАДИСЛАВ</strong>
-                </h1>
+        <div class="character-frame"></div>
 
-                <div class="current-role">
-                    <span class="rank">КАПИТАН</span>
-                    <span class="separator">/</span>
-                    <span>НАЧАЛЬНИК ОТДЕЛА КАДРОВ В УЧЕБНОМ БАТАЛЬОНЕ</span>
-                </div>
-
-                <p class="hero-description">
-                    Личное игровое досье Бони Владислава Сергеевича —
-                    история персонажа, его путь в армии и текущее служебное положение.
-                </p>
-
-                <div class="hero-actions">
-                    <a class="button" href="#bio">
-                        Открыть досье <span>↓</span>
-                    </a>
-
-                    <div class="mini-data">
-                        <div>
-                            <span>AGE</span>
-                            <b>22</b>
-                        </div>
-
-                        <div>
-                            <span>STATUS</span>
-                            <b>ACTIVE</b>
-                        </div>
-
-                        <div>
-                            <span>UNIT</span>
-                            <b>№12132</b>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="character-wrap">
-                <div class="character-glow"></div>
-                <div class="character-frame"></div>
-
-                <img
-                    src="assets/character.png"
-                    alt="Боня Владислав Сергеевич"
-                    class="character"
-                >
-
-                <div class="scan"></div>
-
-                <div class="hud hud-top">
-                    CHARACTER_MODEL // 3D
-                </div>
-
-                <div class="hud hud-bottom">
-                    RENDER_STATUS: <b>ONLINE</b>
-                </div>
-            </div>
-
-            <div class="hero-meta">
-                <span>21.02.2004</span>
-                <span>KUTUZOVSKY</span>
-                <span>RUSSIAN FEDERATION</span>
-            </div>
-
-            <div class="scroll">
-                <span>SCROLL TO EXPLORE</span>
-                <i></i>
-            </div>
-        </section>
-
-
-        <!-- ==================== BIOGRAPHY ==================== -->
-
-        <section class="section bio" id="bio">
-
-            <div class="section-head">
-                <span class="number">01</span>
-
-                <div>
-                    <p>CHARACTER STORY</p>
-                    <h2>Биография</h2>
-                </div>
-            </div>
-
-            <div class="story">
-
-                <!-- ===== CHILDHOOD ===== -->
-
-                <article class="story-block">
-                    <div class="story-number">01</div>
-
-                    <div class="story-content">
-                        <div class="story-label">
-                            LIFE RECORD // 2004—2015
-                        </div>
-
-                        <h3>Детство</h3>
-
-                        <p>
-                            Владислав Сергеевич Боня родился 21 февраля 2004 года
-                            на территории Российской Федерации. Детство он провёл
-                            в Кутузовском районе, где с ранних лет привык к
-                            самостоятельности и ответственности.
-                        </p>
-
-                        <p>
-                            В семье Владислава большое внимание уделялось
-                            воспитанию, уважению к окружающим и умению отвечать
-                            за собственные поступки. В школьные годы он отличался
-                            спокойным характером, не любил лишних конфликтов и
-                            предпочитал сначала разобраться в ситуации, а уже
-                            после принимать решение.
-                        </p>
-
-                        <p>
-                            Постепенно у Владислава сформировались качества,
-                            которые впоследствии стали важными для его взрослой
-                            жизни: дисциплинированность, внимательность к людям
-                            и стремление доводить начатое до конца.
-                        </p>
-                    </div>
-                </article>
-
-
-                <!-- ===== YOUTH ===== -->
-
-                <article class="story-block">
-                    <div class="story-number">02</div>
-
-                    <div class="story-content">
-                        <div class="story-label">
-                            LIFE RECORD // 2015—2022
-                        </div>
-
-                        <h3>Юность</h3>
-
-                        <p>
-                            В подростковом возрасте Владислав стал больше
-                            интересоваться тем, как устроена жизнь общества и
-                            почему в больших коллективах особенно важны порядок,
-                            дисциплина и доверие между людьми.
-                        </p>
-
-                        <p>
-                            Учёба давалась ему без стремления быть лучшим во всём.
-                            Гораздо важнее для него было получить практические
-                            знания и научиться работать с людьми. Владислав
-                            постепенно развивал организаторские навыки, учился
-                            сохранять спокойствие в напряжённых ситуациях и
-                            принимать решения самостоятельно.
-                        </p>
-
-                        <p>
-                            К совершеннолетию он уже представлял своё будущее
-                            достаточно чётко: хотел заниматься делом, в котором
-                            результат зависит не только от личных качеств, но и
-                            от способности организовать работу целого коллектива.
-                        </p>
-                    </div>
-                </article>
-
-
-                <!-- ===== ARMY ===== -->
-
-                <article class="story-block">
-                    <div class="story-number">03</div>
-
-                    <div class="story-content">
-
-                        <div class="story-label">
-                            SERVICE RECORD // 27.07.2026
-                        </div>
-
-                        <h3>Армия</h3>
-
-                        <p>
-                            27 июля 2026 года Владислав Сергеевич Боня вступил
-                            в состав армии. Службу он начал с самого первого
-                            звания — рядового, постепенно знакомясь с внутренним
-                            распорядком, требованиями и ответственностью
-                            военнослужащего.
-                        </p>
-
-                        <p>
-                            Первые недели стали для него периодом адаптации.
-                            Владислав последовательно выполнял поставленные
-                            задачи, осваивал особенности службы и доказывал,
-                            что способен работать не только как исполнитель,
-                            но и как человек, которому можно доверить
-                            ответственность за других.
-                        </p>
-
-                        <p>
-                            Последующие повышения стали результатом его службы
-                            и прохождения всех необходимых этапов. Со временем
-                            Владислав дослужился до офицерского звания капитана.
-                        </p>
-
-
-                        <!-- ===== HR DEPARTMENT ===== -->
-
-                        <div class="story-subheader">
-                            <span class="story-subheader-line"></span>
-
-                            <div class="story-subheader-text">
-                                <span>ОТДЕЛ КАДРОВ</span>
-                                <small>CURRENT RECORD // 16.08.2026—NOW</small>
-                            </div>
-                        </div>
-
-                        <p>
-                            16 августа 2026 года Владислав занял должность
-                            начальника отдела кадров в учебном батальоне в 1-й мотострелковой
-                            бригаде воинской части №12132 в Кутузовском районе.
-                        </p>
-
-                        <p>
-                            На этой должности его служебная деятельность связана
-                            с личным составом, кадровой документацией,
-                            организацией внутренних процессов и поддержанием
-                            установленного порядка.
-                        </p>
-
-                        <p>
-                            Полученный опыт позволил ему перейти от выполнения
-                            отдельных задач к управлению направлением, где
-                            важны внимательность, объективность и умение
-                            принимать взвешенные решения.
-                        </p>
-
-
-                        <!--
-                        =====================================================
-                        БУДУЩИЕ ЭТАПЫ БИОГРАФИИ
-
-                        Здесь можно самостоятельно добавлять новые части
-                        истории персонажа.
-
-                        Например:
-
-                        <div class="story-subheader">
-                            <span class="story-subheader-line"></span>
-
-                            <div class="story-subheader-text">
-                                <span>НОВЫЙ ЭТАП</span>
-                                <small>DATE // DATE</small>
-                            </div>
-                        </div>
-
-                        <p>
-                            Текст нового этапа...
-                        </p>
-
-                        <p>
-                            Продолжение...
-                        </p>
-
-                        =====================================================
-                        -->
-                    </div>
-                </article>
-
-            </div>
-
-
-            <!-- ===== BIOGRAPHY FACTS ===== -->
-
-            <div class="facts-strip">
-
-                <div>
-                    <span>РОЖДЕНИЕ</span>
-                    <strong>21.02.2004</strong>
-                </div>
-
-                <div>
-                    <span>НАЧАЛО СЛУЖБЫ</span>
-                    <strong>27.07.2026</strong>
-                </div>
-
-                <div>
-                    <span>ТЕКУЩЕЕ ЗВАНИЕ</span>
-                    <strong>КАПИТАН</strong>
-                </div>
-
-                <div>
-                    <span>ТЕКУЩАЯ ДОЛЖНОСТЬ</span>
-                    <strong>НАЧАЛЬНИК ОТДЕЛА КАДРОВ В УЧЕБНОМ БАТАЛЬОНЕ</strong>
-                </div>
-
-            </div>
-        </section>
-
-
-        <!-- ==================== QUOTE ==================== -->
-
-        <section class="quote">
-
-            <div class="quote-mark">“</div>
-
-            <p>
-                Звание показывает положение.<br>
-                <strong>Поступки показывают человека.</strong>
-            </p>
-
-            <span>— PERSONAL CHARACTER LOG</span>
-
-        </section>
-
-
-        <!-- ==================== SERVICE HISTORY ==================== -->
-
-        <section class="section history" id="history">
-
-            <div class="section-head">
-                <span class="number">02</span>
-
-                <div>
-                    <p>CHARACTER ARCHIVE</p>
-                    <h2>Служебный путь</h2>
-                </div>
-            </div>
-
-            <div class="history-intro">
-                <p>
-                    Полная история службы персонажа. Каждая запись сохраняет
-                    звание, должность и период нахождения на должности.
-                    Текущая позиция отмечена как действующая.
-                </p>
-            </div>
-
-
-            <div class="timeline">
-
-                <!-- ===== CURRENT POSITION ===== -->
-
-                <article class="timeline-item current">
-
-                    <div class="timeline-date">
-                        <span>16.08.2026</span>
-                        <i>→</i>
-                        <span>ПО Н.В.</span>
-                    </div>
-
-                    <div class="timeline-dot"></div>
-
-                    <button
-                        class="timeline-card timeline-open"
-                        type="button"
-                        data-title="Начальник отдела кадров"
-                        data-period="16.08.2026 — по настоящее время"
-                        data-rank="Капитан"
-                        data-unit="1-я мотострелковая бригада"
-                        data-part="В/Ч №12132"
-                        data-status="Действующая должность"
-                        data-description="С 16 августа 2026 года Боня Владислав Сергеевич занимает должность начальника отдела кадров. На текущем этапе службы он отвечает за работу с личным составом, кадровую документацию, организацию внутренних процессов и соблюдение установленного порядка."
-                        data-photo="assets/nachotd.png"
-                    >
-
-                        <div class="timeline-top">
-                            <span class="badge current-badge">CURRENT</span>
-                            <span>№ 01</span>
-                        </div>
-
-                        <h3>
-                            Начальник отдела кадров
-                            <span class="open-icon">↗</span>
-                        </h3>
-
-                        <div class="timeline-details">
-                            <span>
-                                <b>Звание</b> Капитан
-                            </span>
-
-                            <span>
-                                <b>Бригада</b> 1-я мотострелковая
-                            </span>
-
-                            <span>
-                                <b>В/Ч</b> №12132
-                            </span>
-
-                            <span>
-                                <b>Статус</b> Действующая должность
-                            </span>
-                        </div>
-
-                    </button>
-                </article>
-
-
-                <!-- ===== FIRST SERVICE PERIOD ===== -->
-
-                <article class="timeline-item">
-
-                    <div class="timeline-date">
-                        <span>27.07.2026</span>
-                        <i>→</i>
-                        <span>16.08.2026</span>
-                    </div>
-
-                    <div class="timeline-dot"></div>
-
-                    <button
-                        class="timeline-card timeline-open"
-                        type="button"
-                        data-title="Начало службы"
-                        data-period="27.07.2026 — 16.08.2026"
-                        data-rank="Рядовой"
-                        data-unit="1-я мотострелковая бригада"
-                        data-part="В/Ч №12132"
-                        data-status="Первый этап службы"
-                        data-description="27 июля 2026 года Владислав вступил в состав армии, начав свой путь со звания рядового. Этот период стал первым этапом его военной службы и началом дальнейшего продвижения по служебной лестнице."
-                        data-photo="assets/charactergray.png"
-                    >
-
-                        <div class="timeline-top">
-                            <span class="badge">ARCHIVED</span>
-                            <span>№ 02</span>
-                        </div>
-
-                        <h3>
-                            Начало службы
-                            <span class="open-icon">↗</span>
-                        </h3>
-
-                        <div class="timeline-details">
-                            <span>
-                                <b>Звание</b> Рядовой
-                            </span>
-
-                            <span>
-                                <b>Бригада</b> 1-я мотострелковая
-                            </span>
-
-                            <span>
-                                <b>В/Ч</b> №12132
-                            </span>
-
-                            <span>
-                                <b>Статус</b> Первый этап службы
-                            </span>
-                        </div>
-
-                    </button>
-                </article>
-
-            </div>
-
-
-            <!--
-            =====================================================
-            БУДУЩИЕ ЗАПИСИ СЛУЖЕБНОГО ПУТИ
-
-            Новые должности можно добавлять выше или ниже
-            существующих timeline-item, соблюдая хронологию.
-
-            =====================================================
-            -->
-
-            
-
-            
-
-        </section>
-
-
-        <!-- ==================== CURRENT STATUS ==================== -->
-
-        <section class="section current-section" id="current">
-
-            <div class="section-head">
-                <span class="number">03</span>
-
-                <div>
-                    <p>CURRENT STATUS</p>
-                    <h2>Текущее положение</h2>
-                </div>
-            </div>
-
-            <div class="status-panel">
-
-                <div class="big-rank">
-                    КАПИТАН
-                </div>
-
-                <div class="status-info">
-
-                    <span>ТЕКУЩАЯ ДОЛЖНОСТЬ</span>
-                    <strong>Начальник отдела кадров</strong>
-
-                    <span>БРИГАДА</span>
-                    <strong>1-я мотострелковая бригада</strong>
-
-                    <span>ВОИНСКАЯ ЧАСТЬ</span>
-                    <strong>№12132 · Кутузовский район</strong>
-
-                </div>
-
-                <div class="status-live">
-                    <span></span>
-                    ACTIVE
-                </div>
-
-            </div>
-        </section>
-
-
-        <!-- ==================== DOSSIER MODAL ==================== -->
-
-        <div
-            class="dossier-modal"
-            id="dossierModal"
-            aria-hidden="true"
+        <img
+            src="assets/character.png"
+            alt="Боня Владислав Сергеевич"
+            class="character"
         >
 
-            <div
-                class="modal-backdrop"
-                data-close-modal
-            ></div>
+        <div class="scan"></div>
 
-            <div
-                class="modal-window"
-                role="dialog"
-                aria-modal="true"
-                aria-labelledby="modalTitle"
+
+        <div class="hud hud-top">
+            CHARACTER_MODEL // 3D
+        </div>
+
+
+        <div class="hud hud-bottom">
+            RENDER_STATUS:
+            <b>ONLINE</b>
+        </div>
+
+    </div>
+
+
+    <div class="hero-meta">
+
+        <span>21.02.2004</span>
+
+        <span>KUTUZOVSKY</span>
+
+        <span>RUSSIAN FEDERATION</span>
+
+    </div>
+
+
+    <div class="scroll">
+
+        <span>SCROLL TO EXPLORE</span>
+
+        <i></i>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================
+     BIOGRAPHY
+========================= -->
+
+<section class="section bio" id="bio">
+
+
+    <div class="section-head">
+
+        <span class="number">01</span>
+
+        <div>
+
+            <p>CHARACTER STORY</p>
+
+            <h2>Биография</h2>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="story">
+
+
+        <!-- CHILDHOOD -->
+
+        <article class="story-block">
+
+            <div class="story-number">
+                01
+            </div>
+
+
+            <div class="story-content">
+
+                <div class="story-label">
+                    LIFE RECORD // 2004—2015
+                </div>
+
+
+                <h3>
+                    Детство
+                </h3>
+
+
+                <p>
+                    Владислав Сергеевич Боня родился 21 февраля 2004 года
+                    на территории Российской Федерации. Детство он провёл
+                    в Кутузовском районе, где с ранних лет привык к
+                    самостоятельности и ответственности.
+                </p>
+
+
+                <p>
+                    В семье Владислава большое внимание уделялось воспитанию,
+                    уважению к окружающим и умению отвечать за собственные
+                    поступки. В школьные годы он отличался спокойным характером,
+                    не любил лишних конфликтов и предпочитал сначала разобраться
+                    в ситуации, а уже после принимать решение.
+                </p>
+
+
+                <p>
+                    Постепенно у Владислава сформировались качества, которые
+                    впоследствии стали важными для его взрослой жизни:
+                    дисциплинированность, внимательность к людям и стремление
+                    доводить начатое до конца.
+                </p>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- YOUTH -->
+
+        <article class="story-block">
+
+            <div class="story-number">
+                02
+            </div>
+
+
+            <div class="story-content">
+
+                <div class="story-label">
+                    LIFE RECORD // 2015—2022
+                </div>
+
+
+                <h3>
+                    Юность
+                </h3>
+
+
+                <p>
+                    В подростковом возрасте Владислав стал больше
+                    интересоваться тем, как устроена жизнь общества
+                    и почему в больших коллективах особенно важны порядок,
+                    дисциплина и доверие между людьми.
+                </p>
+
+
+                <p>
+                    Учёба давалась ему без стремления быть лучшим во всём.
+                    Гораздо важнее для него было получить практические знания
+                    и научиться работать с людьми. Владислав постепенно
+                    развивал организаторские навыки, учился сохранять
+                    спокойствие в напряжённых ситуациях и принимать решения
+                    самостоятельно.
+                </p>
+
+
+                <p>
+                    К совершеннолетию он уже представлял своё будущее
+                    достаточно чётко: хотел заниматься делом, в котором
+                    результат зависит не только от личных качеств,
+                    но и от способности организовать работу целого коллектива.
+                </p>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- ARMY -->
+
+        <article class="story-block">
+
+            <div class="story-number">
+                03
+            </div>
+
+
+            <div class="story-content">
+
+                <div class="story-label">
+                    SERVICE RECORD // 27.07.2026
+                </div>
+
+
+                <h3>
+                    Армия
+                </h3>
+
+
+                <p>
+                    27 июля 2026 года Владислав Сергеевич Боня вступил
+                    в состав армии. Службу он начал с самого первого звания —
+                    рядового, постепенно знакомясь с внутренним распорядком,
+                    требованиями и ответственностью военнослужащего.
+                </p>
+
+
+                <p>
+                    Первые недели стали для него периодом адаптации.
+                    Владислав последовательно выполнял поставленные задачи,
+                    осваивал особенности службы и доказывал, что способен
+                    работать не только как исполнитель, но и как человек,
+                    которому можно доверить ответственность за других.
+                </p>
+
+
+                <p>
+                    Последующие повышения стали результатом его службы
+                    и прохождения всех необходимых этапов. Со временем
+                    Владислав дослужился до офицерского звания майора.
+                </p>
+
+
+
+                <!-- HR -->
+
+                <div class="story-subheader">
+
+                    <span class="story-subheader-line"></span>
+
+                    <div class="story-subheader-text">
+
+                        <span>ОТДЕЛ КАДРОВ</span>
+
+                        <small>
+                            SERVICE RECORD // 16.08.2026—16.09.2026
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <p>
+                    16 августа 2026 года Владислав занял должность
+                    начальника отдела кадров в учебном батальоне
+                    в 1-й мотострелковой бригаде воинской части №12132
+                    в Кутузовском районе.
+                </p>
+
+
+                <p>
+                    На этой должности его служебная деятельность была
+                    связана с личным составом, кадровой документацией,
+                    организацией внутренних процессов и поддержанием
+                    установленного порядка.
+                </p>
+
+
+
+                <!-- NEW POSITION -->
+
+                <div class="story-subheader">
+
+                    <span class="story-subheader-line"></span>
+
+                    <div class="story-subheader-text">
+
+                        <span>
+                            ЗАМЕСТИТЕЛЬ КОМАНДИРА УЧЕБНОГО БАТАЛЬОНА
+                        </span>
+
+                        <small>
+                            CURRENT RECORD // 16.09.2026—NOW
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <p>
+                    16 сентября 2026 года Владислав Сергеевич Боня
+                    был назначен на должность заместителя командира
+                    учебного батальона в 1-й мотострелковой бригаде
+                    воинской части №12132.
+                </p>
+
+
+                <p>
+                    Одновременно с назначением Владиславу было присвоено
+                    звание майора. Новая должность стала следующим этапом
+                    его служебного пути и значительно расширила круг
+                    выполняемых обязанностей и уровень ответственности.
+                </p>
+
+
+                <p>
+                    В качестве заместителя командира учебного батальона
+                    Владислав занимается организацией работы батальона,
+                    координацией личного состава, контролем выполнения
+                    поставленных задач и поддержанием установленного порядка.
+                </p>
+
+            </div>
+
+        </article>
+
+    </div>
+
+
+
+    <!-- FACTS -->
+
+    <div class="facts-strip">
+
+        <div>
+
+            <span>РОЖДЕНИЕ</span>
+
+            <strong>
+                21.02.2004
+            </strong>
+
+        </div>
+
+
+        <div>
+
+            <span>НАЧАЛО СЛУЖБЫ</span>
+
+            <strong>
+                27.07.2026
+            </strong>
+
+        </div>
+
+
+        <div>
+
+            <span>ТЕКУЩЕЕ ЗВАНИЕ</span>
+
+            <strong>
+                МАЙОР
+            </strong>
+
+        </div>
+
+
+        <div>
+
+            <span>ТЕКУЩАЯ ДОЛЖНОСТЬ</span>
+
+            <strong>
+                ЗАМЕСТИТЕЛЬ КОМАНДИРА УЧЕБНОГО БАТАЛЬОНА
+            </strong>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================
+     QUOTE
+========================= -->
+
+<section class="quote">
+
+    <div class="quote-mark">
+        “
+    </div>
+
+
+    <p>
+        Звание показывает положение.<br>
+        <strong>Поступки показывают человека.</strong>
+    </p>
+
+
+    <span>
+        — PERSONAL CHARACTER LOG
+    </span>
+
+</section>
+
+
+
+<!-- =========================
+     SERVICE HISTORY
+========================= -->
+
+<section class="section history" id="history">
+
+
+    <div class="section-head">
+
+        <span class="number">
+            02
+        </span>
+
+        <div>
+
+            <p>
+                CHARACTER ARCHIVE
+            </p>
+
+            <h2>
+                Служебный путь
+            </h2>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="history-intro">
+
+        <p>
+            Полная история службы персонажа. Каждая запись сохраняет
+            звание, должность и период нахождения на должности.
+            Текущая позиция отмечена как действующая.
+        </p>
+
+    </div>
+
+
+
+    <div class="timeline">
+
+
+        <!-- CURRENT POSITION -->
+
+        <article class="timeline-item current">
+
+            <div class="timeline-date">
+
+                <span>
+                    16.09.2026
+                </span>
+
+                <i>
+                    →
+                </i>
+
+                <span>
+                    ПО Н.В.
+                </span>
+
+            </div>
+
+
+            <div class="timeline-dot"></div>
+
+
+            <button
+                class="timeline-card timeline-open"
+                type="button"
+
+                data-title="Заместитель командира учебного батальона"
+
+                data-period="16.09.2026 — по настоящее время"
+
+                data-rank="Майор"
+
+                data-unit="1-я мотострелковая бригада"
+
+                data-part="В/Ч №12132"
+
+                data-status="Действующая должность"
+
+                data-description="С 16 сентября 2026 года Боня Владислав Сергеевич занимает должность заместителя командира учебного батальона. На текущем этапе службы он отвечает за организацию работы учебного батальона, координацию личного состава, контроль выполнения поставленных задач и соблюдение установленного порядка."
+
+                data-photo="assets/nachotd.png"
             >
 
-                <button
-                    class="modal-close"
-                    type="button"
-                    data-close-modal
-                    aria-label="Закрыть"
-                >
-                    ×
-                </button>
 
-                <div class="modal-image">
+                <div class="timeline-top">
 
-                    <img
-                        id="modalPhoto"
-                        src="assets/character.png"
-                        alt=""
-                    >
+                    <span class="badge current-badge">
+                        CURRENT
+                    </span>
 
-                    <span class="modal-image-label">
-                        ARCHIVE VISUAL
+                    <span>
+                        № 01
                     </span>
 
                 </div>
 
-                <div class="modal-content">
 
-                    <div class="modal-eyebrow">
-                        <span id="modalBadge">
-                            SERVICE RECORD
-                        </span>
+                <h3>
 
-                        <i></i>
+                    Заместитель командира учебного батальона
 
-                        <span id="modalNumber">
-                            № 01
-                        </span>
-                    </div>
+                    <span class="open-icon">
+                        ↗
+                    </span>
 
-                    <h2 id="modalTitle">
-                        Должность
-                    </h2>
+                </h3>
 
-                    <p
-                        class="modal-period"
-                        id="modalPeriod"
-                    >
-                        Период службы
-                    </p>
 
-                    <div class="modal-data-grid">
+                <div class="timeline-details">
 
-                        <div>
-                            <span>ЗВАНИЕ</span>
-                            <strong id="modalRank">—</strong>
-                        </div>
+                    <span>
+                        <b>Звание</b>
+                        Майор
+                    </span>
 
-                        <div>
-                            <span>БРИГАДА</span>
-                            <strong id="modalUnit">—</strong>
-                        </div>
+                    <span>
+                        <b>Бригада</b>
+                        1-я мотострелковая
+                    </span>
 
-                        <div>
-                            <span>ВОИНСКАЯ ЧАСТЬ</span>
-                            <strong id="modalPart">—</strong>
-                        </div>
+                    <span>
+                        <b>В/Ч</b>
+                        №12132
+                    </span>
 
-                        <div>
-                            <span>СТАТУС</span>
-                            <strong id="modalStatus">—</strong>
-                        </div>
-
-                    </div>
-
-                    <div class="modal-description">
-
-                        <span>RECORD DESCRIPTION</span>
-
-                        <p id="modalDescription">
-                            —
-                        </p>
-
-                    </div>
-
-                    <div class="modal-footer-line">
-
-                        <span>
-                            PERSONAL CHARACTER ARCHIVE
-                        </span>
-
-                        <span>
-                            VERIFIED // RP FILE
-                        </span>
-
-                    </div>
+                    <span>
+                        <b>Статус</b>
+                        Действующая должность
+                    </span>
 
                 </div>
+
+
+            </button>
+
+        </article>
+
+
+
+        <!-- HR POSITION -->
+
+        <article class="timeline-item">
+
+            <div class="timeline-date">
+
+                <span>
+                    16.08.2026
+                </span>
+
+                <i>
+                    →
+                </i>
+
+                <span>
+                    16.09.2026
+                </span>
+
             </div>
-        </div>
-
-    </main>
 
 
-    <!-- ==================== FOOTER ==================== -->
+            <div class="timeline-dot"></div>
 
-    <footer>
 
-        <div class="footer-brand">
-            БС // CHARACTER FILE
-        </div>
+            <button
+                class="timeline-card timeline-open"
+                type="button"
+
+                data-title="Начальник отдела кадров"
+
+                data-period="16.08.2026 — 16.09.2026"
+
+                data-rank="Капитан"
+
+                data-unit="1-я мотострелковая бригада"
+
+                data-part="В/Ч №12132"
+
+                data-status="Предыдущая должность"
+
+                data-description="16 августа 2026 года Владислав Сергеевич Боня занял должность начальника отдела кадров в учебном батальоне. В период исполнения обязанностей он работал с личным составом, кадровой документацией и организацией внутренних процессов. 16 сентября 2026 года Владислав перешёл на должность заместителя командира учебного батальона."
+
+                data-photo="assets/nachotd.png"
+            >
+
+
+                <div class="timeline-top">
+
+                    <span class="badge">
+                        ARCHIVED
+                    </span>
+
+                    <span>
+                        № 02
+                    </span>
+
+                </div>
+
+
+                <h3>
+
+                    Начальник отдела кадров
+
+                    <span class="open-icon">
+                        ↗
+                    </span>
+
+                </h3>
+
+
+                <div class="timeline-details">
+
+                    <span>
+                        <b>Звание</b>
+                        Капитан
+                    </span>
+
+                    <span>
+                        <b>Бригада</b>
+                        1-я мотострелковая
+                    </span>
+
+                    <span>
+                        <b>В/Ч</b>
+                        №12132
+                    </span>
+
+                    <span>
+                        <b>Статус</b>
+                        Предыдущая должность
+                    </span>
+
+                </div>
+
+
+            </button>
+
+        </article>
+
+
+
+        <!-- START OF SERVICE -->
+
+        <article class="timeline-item">
+
+            <div class="timeline-date">
+
+                <span>
+                    27.07.2026
+                </span>
+
+                <i>
+                    →
+                </i>
+
+                <span>
+                    16.08.2026
+                </span>
+
+            </div>
+
+
+            <div class="timeline-dot"></div>
+
+
+            <button
+                class="timeline-card timeline-open"
+                type="button"
+
+                data-title="Начало службы"
+
+                data-period="27.07.2026 — 16.08.2026"
+
+                data-rank="Рядовой"
+
+                data-unit="1-я мотострелковая бригада"
+
+                data-part="В/Ч №12132"
+
+                data-status="Первый этап службы"
+
+                data-description="27 июля 2026 года Владислав вступил в состав армии, начав свой путь со звания рядового. Этот период стал первым этапом его военной службы и началом дальнейшего продвижения по служебной лестнице."
+
+                data-photo="assets/charactergray.png"
+            >
+
+
+                <div class="timeline-top">
+
+                    <span class="badge">
+                        ARCHIVED
+                    </span>
+
+                    <span>
+                        № 03
+                    </span>
+
+                </div>
+
+
+                <h3>
+
+                    Начало службы
+
+                    <span class="open-icon">
+                        ↗
+                    </span>
+
+                </h3>
+
+
+                <div class="timeline-details">
+
+                    <span>
+                        <b>Звание</b>
+                        Рядовой
+                    </span>
+
+                    <span>
+                        <b>Бригада</b>
+                        1-я мотострелковая
+                    </span>
+
+                    <span>
+                        <b>В/Ч</b>
+                        №12132
+                    </span>
+
+                    <span>
+                        <b>Статус</b>
+                        Первый этап службы
+                    </span>
+
+                </div>
+
+
+            </button>
+
+        </article>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================
+     CURRENT STATUS
+========================= -->
+
+<section
+    class="section current-section"
+    id="current"
+>
+
+
+    <div class="section-head">
+
+        <span class="number">
+            03
+        </span>
 
         <div>
-            PERSONAL ROLEPLAY DATABASE
+
+            <p>
+                CURRENT STATUS
+            </p>
+
+            <h2>
+                Текущее положение
+            </h2>
+
         </div>
 
-        <div>
-            © 2026
+    </div>
+
+
+
+    <div class="status-panel">
+
+
+        <div class="big-rank">
+            МАЙОР
         </div>
 
-    </footer>
+
+        <div class="status-info">
 
 
-    <script src="script.js"></script>
+            <span>
+                ТЕКУЩАЯ ДОЛЖНОСТЬ
+            </span>
+
+            <strong>
+                Заместитель командира учебного батальона
+            </strong>
+
+
+            <span>
+                БРИГАДА
+            </span>
+
+            <strong>
+                1-я мотострелковая бригада
+            </strong>
+
+
+            <span>
+                ВОИНСКАЯ ЧАСТЬ
+            </span>
+
+            <strong>
+                №12132 · Кутузовский район
+            </strong>
+
+
+        </div>
+
+
+        <div class="status-live">
+
+            <span></span>
+
+            ACTIVE
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================
+     DOSSIER MODAL
+========================= -->
+
+<div
+    class="dossier-modal"
+    id="dossierModal"
+    aria-hidden="true"
+>
+
+
+    <div
+        class="modal-backdrop"
+        data-close-modal
+    ></div>
+
+
+    <div
+        class="modal-window"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modalTitle"
+    >
+
+
+        <button
+            class="modal-close"
+            type="button"
+            data-close-modal
+            aria-label="Закрыть"
+        >
+            ×
+        </button>
+
+
+
+        <div class="modal-image">
+
+            <img
+                id="modalPhoto"
+                src="assets/character.png"
+                alt=""
+            >
+
+            <span class="modal-image-label">
+                ARCHIVE VISUAL
+            </span>
+
+        </div>
+
+
+
+        <div class="modal-content">
+
+
+            <div class="modal-eyebrow">
+
+                <span id="modalBadge">
+                    SERVICE RECORD
+                </span>
+
+                <i></i>
+
+                <span id="modalNumber">
+                    № 01
+                </span>
+
+            </div>
+
+
+
+            <h2 id="modalTitle">
+                Должность
+            </h2>
+
+
+            <p
+                class="modal-period"
+                id="modalPeriod"
+            >
+                Период службы
+            </p>
+
+
+
+            <div class="modal-data-grid">
+
+
+                <div>
+
+                    <span>
+                        ЗВАНИЕ
+                    </span>
+
+                    <strong id="modalRank">
+                        —
+                    </strong>
+
+                </div>
+
+
+                <div>
+
+                    <span>
+                        БРИГАДА
+                    </span>
+
+                    <strong id="modalUnit">
+                        —
+                    </strong>
+
+                </div>
+
+
+                <div>
+
+                    <span>
+                        ВОИНСКАЯ ЧАСТЬ
+                    </span>
+
+                    <strong id="modalPart">
+                        —
+                    </strong>
+
+                </div>
+
+
+                <div>
+
+                    <span>
+                        СТАТУС
+                    </span>
+
+                    <strong id="modalStatus">
+                        —
+                    </strong>
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="modal-description">
+
+                <span>
+                    RECORD DESCRIPTION
+                </span>
+
+                <p id="modalDescription">
+                    —
+                </p>
+
+            </div>
+
+
+
+            <div class="modal-footer-line">
+
+                <span>
+                    PERSONAL CHARACTER ARCHIVE
+                </span>
+
+                <span>
+                    VERIFIED // RP FILE
+                </span>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</div>
+
+
+</main>
+
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer>
+
+    <div class="footer-brand">
+        БС // CHARACTER FILE
+    </div>
+
+    <div>
+        PERSONAL ROLEPLAY DATABASE
+    </div>
+
+    <div>
+        © 2026
+    </div>
+
+</footer>
+
+
+
+<script src="script.js"></script>
+
 </body>
 </html>
